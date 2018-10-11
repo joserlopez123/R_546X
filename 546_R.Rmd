@@ -2,14 +2,14 @@
 title: "546x"
 output: html_document
 ---
-#546x R 
+
 
 *Author: Jose Lopez*
 
 
 # Part I
 
-First, we need to read the files by using read.file and specifying that it is a tab separated file
+### First, we need to read the files by using read.file and specifying that it is a tab separated file
 ```{r}
 genotypes <- read.csv("fang_et_al_genotypes.txt", sep="\t")
 snp <- read.csv("snp_position.txt", sep="\t")
