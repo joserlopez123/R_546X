@@ -7,15 +7,20 @@ output: html_document
 *Author: Jose Lopez*
 
 
-# Part I
+# Part I  
 
-###First, we need to read the files by using read.file and specifying that it is a tab separated file
+
+###First, we need to read the files by using read.file and specifying that it is a tab separated file  
+
+
 ```{r}
 genotypes <- read.csv("fang_et_al_genotypes.txt", sep="\t")
 snp <- read.csv("snp_position.txt", sep="\t")
 ```
 
-####Inpecting the data 
+####Inpecting the data   
+
+
 ```{r}
 str(genotypes)
 nrow(genotypes)
