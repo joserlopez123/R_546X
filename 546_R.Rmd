@@ -6,6 +6,7 @@ output: html_document
 
 *Author: Jose Lopez*
 
+
 ## Part I
 
 First, we need to read the files by using read.file and specifying that it is a tab separated file
