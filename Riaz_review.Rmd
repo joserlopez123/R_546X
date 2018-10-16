@@ -1,0 +1,11 @@
+---
+title: "Riaz_review"
+output: html_document
+---
+
+The markdown file is well organized and divided into parts according to questions asked in the assignment. Code chunks are embedded using the knitr syntax and are executable.  
+The data inspection code chunk runs smoothly and gives the expected output for a correctly read dataframe for the Fang et al. genotype and SNP position data files. Extracting the required groups and columns from the genotype and SNP datasets is an effective data processing step before ordering columns and writing files. 
+Using a loop to split the Maize and Teosinte genotype files for each chromosome would have been more efficient than manually typing out the command, but the code chunk used gives the required output (dataframe split according to 10 chromosomes). However, the R markdown file is missing the code to write these data subsets into corresponding files, possibly because the file is a work in progress. 
+Data processing for the visualization part of the assignment forms the required data frame for making the SNPs per chromosome and SNPs per group plots. Instead of the labs() function to label the axes, the author used theme to edit the plot axes and grid. I believe if the axes labels were consistent between the two plots and the y axis label was not tilted at a 45 angle it would have been more aesthetically pleasing.
+The codes for remaining plots, including the scatter plot, exploring the heterozygosity and missing data are executable with the relevant libraries. 
+All in all, the knitted code runs smoothly and is well documented with notes to explain the steps. The plots are also explained and information is interpreted and explained clearly. 
